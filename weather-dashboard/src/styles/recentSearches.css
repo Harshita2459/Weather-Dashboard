@@ -1,0 +1,53 @@
+.recent-searches {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dark-mode .recent-searches {
+    background-color: #2d3748;
+    color: #f7fafc;
+  }
+  
+  .light-mode .recent-searches {
+    background-color: #fff;
+    color: #2d3748;
+  }
+  
+  .recent-searches-content {
+    padding: 20px;
+  }
+  
+  .recent-searches h3 {
+    margin: 0 0 15px;
+    font-size: 20px;
+  }
+  
+  .recent-searches-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .recent-searches-list li {
+    margin-bottom: 8px;
+  }
+  
+  .recent-search-button {
+    width: 100%;
+    text-align: left;
+    padding: 8px 12px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+  
+  .dark-mode .recent-search-button:hover {
+    background-color: #4a5568;
+  }
+  
+  .light-mode .recent-search-button:hover {
+    background-color: #ebf8ff;
+  }
