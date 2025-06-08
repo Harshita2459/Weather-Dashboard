@@ -1,4 +1,3 @@
-# Zynetic
 
 # Weather Dashboard
 
